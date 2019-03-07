@@ -1,0 +1,101 @@
+<html>
+<head>
+<link href="style11.css"rel="stylesheet"type="text/css">
+</head>
+<body>
+	       <a href="fb.html"></a>
+		   
+		   <section>
+			<div class="menu">
+				<nav>
+				<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="about.html">ABOUT</a></li>
+				<li><a href="#">CONTACT</a>
+				<ul>
+					<li><a href="contact1.html">Contact number</a></li>
+					<li><a href="contact2.html">Contact Address</a></li>
+					
+				</ul></li>
+				<li><a href="#">Menu</a>
+					<ul>
+					<li><a href="veg_pizza.html">veg pizza</a></li>
+					<li><a href="non_veg.html">non-veg pizza</a></li>
+					<li><a href="pizza_mania.html">pizza mania</a></li>
+					<li><a href="sides.html">side order</a></li>
+				</ul></li>
+				
+				<li><a href="card.html">GIFT CARD</a></li>
+				
+				</ul>
+				</nav>
+				</div>
+	
+				</div>
+				
+				</section>
+		   <div class="on">
+				<img src="pic6.png" alt="image not display" height="70" width="70">
+				<p>LOGIN</p>
+				</div>
+				<div class="line">
+				<span style="color:black">______________________________________________________________________________________________________________________</span>
+				</div>
+				
+				<div class="a31">
+				<p>LOG IN WITH EMAIL...</p>
+				</div>
+				<div class="a41">
+    <form name="myform" action="login.html" onsubmit="return validateform()" >
+	<div class="container">
+    <label><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="username" required>
+
+    <label><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="password"required>
+	
+        
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+</div>
+
+<script>
+    function validateform()
+	{
+	var uname=document.myform.username.value;
+	var pass=document.myform.password.value;
+	if(pass.length<=6)
+	{
+	alert("Length should be maximum 7 character");
+	return false;
+	}
+	else if(uname=="")
+	{
+	alert("username should not be empty");
+	return false;
+	}
+	else
+	{
+	return true;
+	}
+	}
+</script>
+
+                 <div id="footer">
+			     All Rights Reserved. Copyright © Jubilant FoodWorks Ltd.
+			     </div>
+
+</body>
+</html>
+				
+				
+				

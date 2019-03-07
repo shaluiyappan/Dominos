@@ -1,0 +1,86 @@
+body/*login*/
+{
+	margin:0px;
+	padding:0px;
+	background-image:url(pic32.jpg);
+	font-family:sans-serif;
+}
+#header
+{
+    background-image:url(pic8.png);
+	height:80%;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+.n1 p
+{
+	color:black;
+	font-weight:bold;
+	font-size:30px;
+	margin-left:150px;
+}
+.n1 p1
+{
+	position:relative;
+	bottom:60px;
+	margin-left:300px;
+}
+.n1 p2
+{
+	position:relative;
+	bottom:60px;
+	margin-left:300px;
+}
+.n1 p3
+{
+	position:relative;
+	bottom:60px;
+	margin-left:450px;
+}
+.n1 p4
+{
+	position:relative;
+	bottom:60px;
+	margin-left:300px;
+}
+.n1 p5
+{
+	position:relative;
+	bottom:60px;
+	margin-left:300px;
+}
+.n1 p6
+{
+	position:relative;
+	bottom:60px;
+	margin-left:300px;
+}
+.n1 p7
+{
+	position:relative;
+	bottom:60px;
+	margin-left:450px;
+}
+.box
+{
+    height:150%;
+    width:70%;
+    border:5px solid blue;
+    border-radius:5px;
+	position:relative;
+	left:200px;
+}
+input[type=submit]
+{
+	color:white;
+	font-size:20px;
+	background-color:black;
+	position:relative;
+	bottom:0px;
+	margin-left:330px;
+}
+input[type=submit]:hover
+{
+	color:red;
+}
+	

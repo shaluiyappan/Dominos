@@ -1,0 +1,143 @@
+<html>
+<head>
+<link href="style11.css"rel="stylesheet"type="text/css">
+</head>
+<body>
+	       <a href="login.html"></a>
+		    <section>
+			<div class="menu">
+				<nav>
+				<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="about.html">ABOUT</a></li>
+				<li><a href="#">CONTACT</a>
+				<ul>
+					<li><a href="contact1.html">Contact number</a></li>
+					<li><a href="contact2.html">Contact Address</a></li>
+					
+				</ul></li>
+				<li><a href="#">Menu</a>
+					<ul>
+					<li><a href="veg_pizza.html">veg pizza</a></li>
+					<li><a href="non_veg.html">non-veg pizza</a></li>
+					<li><a href="pizza_mania.html">pizza mania</a></li>
+					<li><a href="sides.html">side order</a></li>
+				</ul></li>
+				
+				<li><a href="card.html">GIFT CARD</a></li>
+				
+				</ul>
+				</nav>
+				</div>
+	
+				</div>
+				
+				</section>
+		   <div class="on">
+				<img src="pic6.png" alt="image not display" height="70" width="70">
+				<p>CREATE AN ACCOUNT</p>
+				</div>
+				
+				<div class="line">
+				<span style="color:black">______________________________________________________________________________________________________________________</span>
+				</div>
+				
+				<div class="a1">
+				<p>LOG IN WITH...</p><br>
+				<div class="box">
+				<a href="fb.html"><img src="pic17.png" alt="image not display" height="30px" width="30px"><br>
+				<p1>FACEBOOK</p1></a>
+				</div>
+				</div>
+				
+				<div class="a2">
+				<div class="box1">
+				<a href="google.html"><img src="pic18.png" alt="image not display" height="20px" width="20px"><br>
+				<p1>GOOGLE</p1></a>
+				</div>
+				</div>
+				<div class="a3">
+				<p>OR LOG IN WITH EMAIL...</p>
+				</div>
+				<div class="a4">
+    <form name="myform" onsubmit="return validateform()" >
+	<div class="container">
+    <label><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="username">
+	
+	<label><b>Phone Number</b></label>
+    <input type="text" placeholder="Enter Phone Number" name="phone_number">
+	
+	<label><b>Email</b></label>
+    <input type="text" placeholder="Enter Email_Id" name="email">
+
+    <label><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="password" onblur="validatepass()">
+	
+	<label><b>confirm_Password</b></label>
+    <input type="password" placeholder="Enter Confirm_Password" name="confirm_password">
+	
+        
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+</div>
+
+<script>
+         function validateform()
+		 {
+		 var uname=document.myform.username.value;
+		 var phone=document.myform.phone_number.value;
+		 var eid=document.myform.email.value;
+		 var pat=/^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;	  
+		 var pass=document.myform.password.value;
+		 var confirm_pass=document.myform.confirm_password.value;
+		 if(pass!=confirm_pass)
+		 {
+		 alert("password should be same");
+		 return false;
+		 }
+		 else if(!eid.match(pat))
+		 {
+		 alert("Invalid Email Id");
+		 return false;
+		 }
+		 else if(uname=="")
+		 {
+		 alert("username should not be empty");
+		 return false;
+		 }
+		 else if(phone.length<10)
+		 {
+		 alert("Phone number should be atleast 10 digits");
+		 return false;
+		 }
+		 else
+		 {
+		 return true;
+		 }
+		 }
+		 function validatepass()
+		 {
+		 var pass=document.myform.password.value;
+		 if(pass.length<=6)
+		 {
+		 alert("Password should be atleast 7 digits");
+		 }
+		 }	
+         
+		 
+		 
+</script>
+
+                 <div id="footer">
+			     All Rights Reserved. Copyright © Jubilant FoodWorks Ltd.
+			     </div>

@@ -1,0 +1,313 @@
+body/*card style*/
+{
+    padding:0px;
+	font-family:sans-serif;
+	background-image:url(pic9.png);
+}
+#header
+{
+	background-image:url(pic1.png);
+	height:95vh;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+h2
+{
+	color:white;
+	font-size:30px;
+	text-align:center;
+	position:relative;
+	top:25px;
+	left:450px;
+    right:400px;
+    width:500px;
+    height:80px;
+    padding:5px;
+ }
+ .menu
+{
+	float:right;
+	list-style:none;
+	margin-top:30px;
+	font-size:25px;
+    margin-right:130px;
+}
+nav
+{
+	position:relative;
+	float:right;
+	position:relative;
+	bottom:510px;
+}
+nav ul
+{
+	margin:0px;
+	padding:0px;
+	display:flex;
+	border:2px solid black;
+	background-color:rgb(128,128,0);
+	
+}
+nav ul li
+{
+	list-style:none;
+}
+nav ul li a
+{
+	display:block;
+	padding:10px 20px;
+	text-transform:uppercase;
+	font-weight:bold;
+	text-decoration:none;
+	color:white;
+	
+}
+nav ul li a:hover
+{
+    background-color:rgb(192,192,192);
+    color:black;
+}
+nav ul li ul
+{
+	display:block;
+	background-color:rgb(144,144,144);
+	min-width:250px;
+	position:absolute;
+	margin-top:1px;
+	box-shadow:0 2px 5px rgba(0,0,0,.5);
+	opacity:0;
+	visibility: hidden;
+	transition: .5s;
+	transform:translateY(40px);
+}
+nav ul li:hover ul
+{
+	opacity:1;
+	visibility:visible;
+	transform:translateY(0px);
+}
+
+nav ul li ul li a
+{
+	padding:10px;
+}
+p
+{
+	color:black;
+    margin-left:450px;
+    font-size:30px;
+	position:relative;
+	bottom:60px;
+	font-weight:bold;
+	right:80px;
+	
+}
+section
+{
+	
+	background-image:url(pic16.png);
+    height:80%;
+	width:100%;
+    position:relative;
+	bottom:110px;
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;
+}
+.a1 p1
+{
+	color:white;
+    margin-left:390px;
+    font-size:30px;
+	position:relative;
+	bottom:120px;
+	font-weight:bold;
+	right:80px;
+}
+.a2
+{
+	margin-left:100px;
+}
+.a2 p3
+{
+	color:red;
+	font-size:20px;
+	margin-left:30px;
+	position:relative;
+	bottom:10px;
+	top:10px;
+	font-weight:bold;
+}
+.a2 img
+{
+	margin-left:30px;
+	position:relative;
+	top:20px;
+}
+.a2 h4
+{
+	color:black;
+	margin-right:50px;
+	position:relative;
+	top:10px;
+	left:3px;
+}
+.box
+{
+    height:60%;
+    width:30%;
+    border:2px solid black ;
+    border-radius:5px;
+	position:relative;
+	left:200px;
+	bottom:80px;
+	padding:10px;
+}
+.a3
+{
+	margin-left:100px;
+}
+.a3 p3
+{
+	color:red;
+	font-size:20px;
+	margin-left:40px;
+	position:relative;
+	bottom:10px;
+	top:10px;
+	font-weight:bold;
+}
+.a3 img
+{
+	margin-left:10px;
+	position:relative;
+	top:20px;
+}
+.a3 h4
+{
+	color:black;
+	margin-right:50px;
+	position:relative;
+	top:10px;
+	left:0px;
+}
+.box1
+{
+    height:60%;
+    width:30%;
+    border:2px solid black ;
+    border-radius:5px;
+	position:relative;
+	margin-left:750px;
+	bottom:490px;
+	padding:10px;
+}
+.mySlides 
+{
+	display:none;
+}
+.content
+{
+	margin-left:200px;
+	position:relative;
+	bottom:500px;
+}
+.a4 p
+{
+	color:black;
+	font-weight:bold;
+	position:relative;
+	bottom:500px;
+	margin-right:20px;
+}
+.a5 p
+{
+	color:darkorange;
+	font-weight:bold;
+	position:relative;
+	bottom:450px;
+	margin-left:350px;
+}
+.a6 p
+{
+	color:black;
+    margin-left:150px;
+    font-size:20px;
+	position:relative;
+	top:25px;
+	font-weight:bold;
+	right:100px;
+}
+
+input[type=text]
+{
+  width: 60%;
+  padding: 12px 20px;
+  margin-left:80px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  position:relative;
+  top:40px;
+}
+button 
+{
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  left:150px;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  position:relative;
+  top:85px;
+}
+.box3
+{
+    height:45%;
+    width:38%;
+    border:5px solid blue ;
+    border-radius:5px;
+	position:relative;
+	bottom:350px;
+	margin-left:400px;
+	
+}
+.voucher p
+{
+	font-size:30px;
+	color:black;
+	margin-left:300px;
+	position:relative;
+	bottom:330px;
+	font-weight:bold;
+}
+.voucher p1
+{
+	font-size:30px;
+	color:white;
+	margin-left:350px;
+	position:relative;
+	bottom:300px;
+	font-weight:bold;
+}
+.voucher p2
+{
+	font-size:30px;
+	color:red;
+	margin-left:500px;
+	position:relative;
+	bottom:200px;
+	font-weight:bold;
+}
+#footer
+{
+	color:white;
+	background-color:black;
+	font-size:25px;
+	text-align:center;
+	position:relative;
+	bottom:20px;
+	position:relative;
+	bottom:10px;
+}

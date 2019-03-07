@@ -1,0 +1,210 @@
+body/*contact number*/
+{
+	margin:0px;
+	padding:0px;
+	background-image:url(pic9.png);
+	font-family:sans-serif;
+}
+.menu
+{
+	float:right;
+	list-style:none;
+	margin-top:30px;
+	font-size:25px;
+	margin-right:150px;
+}
+nav
+{
+	position:relative;
+	float:right;
+	position:relative;
+	top:123px;
+}
+nav ul
+{
+	margin:0px;
+	padding:0px;
+	display:flex;
+	border:2px solid black;
+	background-color:rgb(128,128,0);
+	
+}
+nav ul li
+{
+	list-style:none;
+}
+nav ul li a
+{
+	display:block;
+	padding:10px 20px;
+	text-transform:uppercase;
+	font-weight:bold;
+	text-decoration:none;
+	color:white;
+	
+}
+nav ul li a:hover
+{
+    background-color:rgb(192,192,192);
+    color:black;
+}
+nav ul li ul
+{
+	display:block;
+	background-color:rgb(144,144,144);
+	min-width:250px;
+	position:absolute;
+	margin-top:1px;
+	box-shadow:0 2px 5px rgba(0,0,0,.5);
+	opacity:0;
+	visibility: hidden;
+	transition: .5s;
+	transform:translateY(40px);
+}
+nav ul li:hover ul
+{
+	opacity:1;
+	visibility:visible;
+	transform:translateY(0px);
+}
+
+nav ul li ul li a
+{
+	padding:10px;
+}
+
+#header
+{
+	background-image:url(pic3.png);
+	height:90%;
+    background-repeat:no-repeat;
+	background-size:cover;
+	background-position:left;
+}
+h3
+{
+	background-color:blue;
+	color:white;
+	box-sizing: border-box;
+    width:300px;
+    height:30px;
+}
+.box1
+{
+    height:100%;
+    width:38%;
+    border:5px solid rgb(189,47,147) ;
+    border-radius:5px;
+}
+.con
+{
+	text-align:left;
+	padding:100px;
+	position:relative; 
+	bottom:170px;
+	margin-left:250px;
+	
+}
+h2
+{
+	color:brown;
+	text-align:center;
+	text-decoration:underline;
+	font-weight:bold;
+	margin-left:690px;
+	font-size:30px;
+	position:relative; 
+	bottom:500px;
+}
+.ccnum
+{
+	margin-left:780px;
+	position:relative; 
+	bottom:500px;
+}
+.ccnum1
+{
+	margin-left:830px;
+	position:relative; 
+	bottom:522px;
+	
+}
+.ccnum2
+{
+	color:red;
+	font-size:25px;
+	text-align:center;
+	position:relative; 
+	bottom:400px;
+}
+.ccnum2 span
+{
+	margin-left:40px;
+}
+table
+{
+	margin-left:350px;
+	width:50px;
+	text-align:center;
+
+}
+th 
+{
+    height:50px;
+    background-color: #4CAF50;
+	color:yellow;
+}
+tr:hover 
+{
+	background-color:rgb(9,255,255);
+}
+td
+{
+   color:black;
+   height:80px;
+   font-weight:bold;
+}
+.ad
+{
+	color:rgb(205,33,132);
+	text-decoration: underline;
+}
+.queries p 
+{
+	color:black;
+	font-weight:bold;
+}
+.queries p1
+{
+	color:rgb(20,24,171);
+}
+.column 
+{
+   float: left;
+   margin-left:100px;
+   padding:15px;
+}
+.button
+{
+	width:150px;
+	background-color:black;
+	font-size:25px;
+	color:white;
+}
+button:hover
+{
+	background-color:red;
+}
+#footer
+{
+	color:white;
+	background-color:black;
+	font-size:25px;
+	text-align:center;
+	position:relative;
+	bottom:20px;
+}
+.scrollbar
+{
+	height:300px;
+}

@@ -1,0 +1,206 @@
+<html>
+<head>
+<link href="style9.css"rel="stylesheet"type="text/css">
+</head>
+<body>
+	       <a href="order.php"></a>
+            <section>
+			<div class="menu">
+				<nav>
+				<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="about.html">ABOUT</a></li>
+				<li><a href="#">CONTACT</a>
+				<ul>
+					<li><a href="contact1.html">Contact number</a></li>
+					<li><a href="contact2.html">Contact Address</a></li>
+					
+				</ul></li>
+				<li><a href="#">Menu</a>
+					<ul>
+					<li><a href="veg_pizza.html">veg pizza</a></li>
+					<li><a href="non_veg.html">non-veg pizza</a></li>
+					<li><a href="pizza_mania.html">pizza mania</a></li>
+					<li><a href="sides.html">side order</a></li>
+				</ul></li>
+				
+				<li><a href="card.html">GIFT CARD</a></li>
+				
+				</ul>
+				</nav>
+				</div>
+	
+				</div>
+				
+				</section>
+				<div class="on">
+				<img src="pic6.png" alt="image not display" height="70" width="70">
+				<p>ONLINE ORDERING</p>
+				</div><br><br>
+				
+				<div class="line">
+				<span style="color:black">_______________________________________________________________________________________________________________________________</span><br><br>
+				<div class="a1">
+				TO START YOUR ORDER, SELECT AN ORDER TYPE BELOW
+				</div><br>
+				
+				<div class="row">
+				<a href="quick.html">
+				<div class="column">
+				<div class="box1">
+				<div class="a2">
+				<img src="pic4.jpg" alt="image not display" height="50" width="50"><br>
+				</div>
+				<div class="a3">
+				<span style="color:black">_________________________</span><br><br>
+				</div>
+				<div class="a4">
+				QUICK ORDER
+				</div><br>
+				<div class="a5">
+				Quickly reorder one of your<br><pre>   recent orders.</pre>
+				</div>
+				</div><br><br>
+				</div></a>
+				
+                <a href="delivery.html">
+				<div class="column">
+				<div class="box2">
+				<div class="a2">
+				<img src="pic10.png" alt="image not display" height="50" width="50"><br>
+				</div>
+				<div class="a3">
+				<span style="color:black">_________________________</span><br><br>
+				</div>
+				<div class="a6">
+				DELIVERY
+				</div><br>
+				<div class="a5">
+				Have your order delivered<br><pre>   directly to you.</pre>
+				</div>
+				</div>
+				</div></a>
+				
+	
+				<a href="pick.html">
+				<div class="column">
+				<div class="box3">
+				<div class="a2">
+				<img src="pic11.png" alt="image not display" height="50" width="50"><br>
+				</div>
+				<div class="a3">
+				<span style="color:black">_________________________</span><br><br>
+				</div>
+				<div class="a7">
+				PICK UP
+				</div><br>
+				<div class="a8">
+				Pick up your order at a<br><pre>   domino's store.</pre>
+				</div>
+				</div>
+				</div>
+				</div>
+				<br></a>
+			<div class="b1">
+			Cash and major credit cards are accepted.
+			</div><br><br><br>
+			
+			
+			<div class="b2">
+			<p>PAYMENT MODE</p>
+			</div>
+			<div class="r1">
+                        <div class="c1">
+                        <img src="pic12.png" alt="image not display" height="100" width="200">
+						</div>
+						
+						<div class="c1">
+                        <img src="pic14.png" alt="image not display" height="100" width="200">
+						</div>
+						
+						<div class="c1">
+                        <img src="pic15.png" alt="image not display" height="100" width="200">
+						</div>
+			</div><br><br>
+			
+			<div class="a9">
+    <form name="myform" action="veg_pizza.html" onsubmit="return credit_cardform()" >
+	<div class="container">
+    <label><b>Credit card Number</b></label>
+    <input type="text" placeholder="Enter Credit Card Number" name="credit_card">
+
+    <label><b>CVV</b></label>
+    <input type="text" placeholder="Enter CCV" name="cvv">
+	
+	<label><b>Phone number</b></label>
+    <input type="text" placeholder="Enter Phone Number" name="phone_number"><br>
+	
+	
+	
+    <button type="submit" >Submit</button>
+	
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+</div><br><br>
+
+<script>
+
+function credit_cardform()
+{
+var card=document.myform.credit_card.value;
+var c=document.myform.cvv.value;
+var phone=document.myform.phone_number.value;
+if(card.length<16)
+{
+alert("credit number should contain atleast 16 digits");
+return false;
+}
+else if(c.length<3)
+{
+alert("cvv number should contain atleast 3 digits");
+return false;
+}
+else if(phone.length<10)
+{
+alert("phone number should contain atleast 10 digits");
+return false;
+}
+else
+{
+alert("Your Order has been Confirmed.And try some another delicious pizza");
+return true;
+}
+}
+</script>
+
+
+<div class="link">
+			<a href="Login.html">LOGIN</a> &nbsp &nbsp &nbsp &nbsp &nbsp <a href="signup.html">SIGNUP</a>
+			</div><br><br>
+			
+			<div id="footer">
+			<div class="policy">
+			<a href="privacy.html">PRIVACY POLICY</a> &nbsp &nbsp &nbsp &nbsp &nbsp  <a href="website.html">WEBSITE AND ONLINE ORDERING TERMS AND CONDITIONS.</a>
+			</div>
+			<div class="rights">
+			All Rights Reserved. Copyright © Jubilant FoodWorks Ltd.
+			</div>
+			</div>
+			
+			
+			
+
+
+</body>
+</html>
+		
+		
+		
